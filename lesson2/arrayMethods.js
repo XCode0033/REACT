@@ -122,3 +122,11 @@ const notes = [
 ];
 
 notes.forEach((note) => console.log(note.title));
+
+
+//learned today
+// .filter
+// .map -- brad says priority since "react list"
+// .reduce
+// .forEach
+

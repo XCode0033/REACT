@@ -37,7 +37,7 @@ console.log(title);
 // const { name, address } = user;
 // console.log(address);
 
-//2 destructuring an array in an object
+//2 destructuring an array in an object, basically just making the object then doing the array destructring from earlier
 const user = {
   name: "Ben",
   address: { city: "boston", state: "mass" },

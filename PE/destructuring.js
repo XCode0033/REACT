@@ -38,13 +38,3 @@ const { title, rating, ...movieMeta } = movie;
 console.log(title);
 console.log(rating);
 console.log(movieMeta);
-//5. function params with descturcturing + rest
-
-const todos = [
-  { id: 1, text: "Study React", done: false },
-  { id: 2, text: "Work on Sharp Schedule", done: true },
-];
-
-function printTodo({ id, text }) {
-  console.log(`#${id}: ${text}`);
-}

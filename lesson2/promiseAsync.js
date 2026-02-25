@@ -13,7 +13,7 @@
 //   .catch((error) => console.log(error))
 
 //^ same thing but as an async await
-
+//"try catch" is what its called
 const fetchData = async () => {
   try {
     const response = await fetch(
@@ -21,6 +21,7 @@ const fetchData = async () => {
     );
     const data = await response.json();
     console.log(data);
+
   } catch (error) {
     console.log(error);
   }
