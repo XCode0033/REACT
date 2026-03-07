@@ -1,0 +1,10 @@
+
+
+cd ~/Code/REACT/01-starting-project
+cd ~/Code/REACT/01-starting-project/src
+npm run dev
+
+When Starting ==>
+1. cd ~/Code/REACT/01-starting-project/src
+2. npm run dev
+
